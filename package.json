@@ -10,13 +10,17 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.smtp.router.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.smtp.router.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.smtp.router/issues"
+    "url": "https://github.com/agraddy/agraddy.smtp.router/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.2.0"
+    "agraddy.test.tap": "^0.2.0"
+  },
+  "dependencies": {
+    "agraddy.async.each": "^0.4.0",
+    "safe-regex": "^1.1.0"
   }
 }
